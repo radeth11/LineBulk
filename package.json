@@ -1,0 +1,17 @@
+{
+  "name": "linebulk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "docker build -t aio1108/company-website:line-bulk .",
+    "push": "docker push aio1108/company-website:line-bulk "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
